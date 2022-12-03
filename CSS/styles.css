@@ -1,91 +1,93 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 
-/* Colors: */
---unnamed-color-707070: #707070;
----828fad_texto_off: #828FAD;
---unnamed-color-eceff7: #ECEFF7;
---unnamed-color-edf3ff: #EDF3FF;
---black_-181e27_titulo-de-inputs: #181E27;
---black_-191e26_íconos: #191E26;
---red_-ff453e: #FF453E;
---blue_-04004b: #04004B;
---blue_-f5f7fb_fondos: #F5F7FB;
---unnamed-color-91cd5d: #91CD5D;
---green_-00cf30_check: #00CF30;
---blue_-5dcacd: #5DCACD;
---blue_-00cdcf: #00CDCF;
---unnamed-color-e6feff: #E6FEFF;
---gray_-7e7e7e: #7E7E7E;
---gray_-e3e2e2: #E3E2E2;
---unnamed-color-ffffff: #FFFFFF;
+.container{
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 800px;    
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 80px 0;
+    max-width: 1200px;
 
-/* Font/text values */
---unnamed-font-family-montserrat: Montserrat;
---unnamed-font-style-normal: normal;
---unnamed-font-weight-600: 600px;
---unnamed-font-weight-bold: bold;
---unnamed-font-weight-normal: normal;
---unnamed-font-size-16: 16px;
---unnamed-font-size-24: 24px;
---unnamed-font-size-42: 42px;
---unnamed-character-spacing-0: 0px;
---unnamed-line-spacing-19: 19px;
---unnamed-line-spacing-29: 29px;
---unnamed-line-spacing-52: 52px;
+}
+.texto1{
+    top: 138px;
+    left: 168px;
+    width: 944px;
+    height: 32px;
+    text-align: center;
+    color: #181E27;
+    opacity: 1;
+    position: absolute;
+    margin: 0 auto;
+    overflow: hidden;
+
+
 }
 
-/* Character Styles */
-.montserrat-—-16pt-—-texto-off {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-normal);
-font-weight: var(--unnamed-font-weight-600);
-font-size: var(--unnamed-font-size-16);
-line-height: var(--unnamed-line-spacing-19);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(---828fad_texto_off);
+.texto2{
+    top: 190px;
+    left: 168px;
+    width: 944px;
+    height: 32px;
+    position: absolute;
+    padding: 1px 1px ;
+    max-width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+   
 }
-.montserrat-—-42pt-—-título-inicio {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-normal);
-font-weight: var(--unnamed-font-weight-bold);
-font-size: var(--unnamed-font-size-42);
-line-height: var(--unnamed-line-spacing-52);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-ffffff);
+
+.texto3{
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal bold 16px/19px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
 }
-.montserrat-—-24pt-—-titulos-principales {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-normal);
-font-weight: var(--unnamed-font-weight-bold);
-font-size: var(--unnamed-font-size-24);
-line-height: var(--unnamed-line-spacing-29);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--blue_-04004b);
+.img1{
+    top: 261px;
+    left: 437px;
+    width: 407px;
+    height: 298px;
+    background: transparent url('img/Grupo 36348.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    object-position: 0px;
+    box-sizing: 100%;
+  
 }
-.montserrat-—-16pt-—-titulos-inputs {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-normal);
-font-weight: var(--unnamed-font-weight-600);
-font-size: var(--unnamed-font-size-16);
-line-height: var(--unnamed-line-spacing-19);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--black_-181e27_titulo-de-inputs);
+.boton{
+    top: 614px;
+    left: 456px;
+    width: 368px;
+    height: 48px;
+    background: transparent linear-gradient(278deg, var(--red_-ff453e) 0%, #FF5B64 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(278deg, #FF453E 0%, #FF5B64 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #A801015F;
+    border-radius: 24px;
+    opacity: 1;
+    position: absolute;
+    border-style: none;
+    
 }
-.montserrat-—-16pt-—-texto-off-inputs {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-normal);
-font-weight: var(--unnamed-font-weight-normal);
-font-size: var(--unnamed-font-size-16);
-line-height: var(--unnamed-line-spacing-19);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--gray_-7e7e7e);
+
+body{
+    vertical-align: baseline;
+    font-family: 'Open Sans', sans-serif;
+
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+
 }
-.montserrat-—-16pt-—-texto-on-inputs {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-normal);
-font-weight: var(--unnamed-font-weight-600);
-font-size: var(--unnamed-font-size-16);
-line-height: var(--unnamed-line-spacing-19);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--blue_-04004b);
+html{
+    display: block;
+    -webkit-text-size-adjust: 100px;
+
 }
