@@ -1,72 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 
-.container{
-    top: 0px;
-    left: 0px;
-    width: 1280px;
-    height: 800px;    
-    width: 90%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 80px 0;
-    max-width: 1200px;
-
-}
-.texto1{
-    top: 138px;
+.padre .hijo{
+    margin-top: 138px;
     left: 168px;
-    width: 944px;
-    height: 32px;
+    margin-inline: auto;
+    width: 100%;
+    max-width: 944px;
+    height: 524px;
+    overflow: auto;
     text-align: center;
-    color: #181E27;
-    opacity: 1;
-    position: absolute;
-    margin: 0 auto;
-    overflow: hidden;
-
-
 }
 
-.texto2{
-    top: 190px;
-    left: 168px;
-    width: 944px;
-    height: 32px;
-    position: absolute;
-    padding: 1px 1px ;
-    max-width: 1280px;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
-   
-}
+.padre .texto1{font-size: 24px;}
 
-.texto3{
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-ffffff);
+.padre .texto2{
+    font-size: 24px;
+    margin-top: 20px ;
     text-align: center;
-    font: normal normal bold 16px/19px;
-    font-family: 'Open Sans', sans-serif;
     letter-spacing: 0px;
-    color: #FFFFFF;
     opacity: 1;
+}
 
-}
-.img1{
-    top: 261px;
-    left: 437px;
-    width: 407px;
-    height: 298px;
-    background: transparent url('img/Grupo 36348.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    position: absolute;
-    object-position: 0px;
-    box-sizing: 100%;
-  
-}
-.boton{
-    top: 614px;
-    left: 456px;
+.img1{margin-top: 30px;}
+
+.boton .texto3{color: #ffff;}
+
+.boton {
+    margin-top: 54.76px;
     width: 368px;
     height: 48px;
     background: transparent linear-gradient(278deg, var(--red_-ff453e) 0%, #FF5B64 100%) 0% 0% no-repeat padding-box;
@@ -74,20 +34,7 @@
     box-shadow: 0px 10px 20px #A801015F;
     border-radius: 24px;
     opacity: 1;
-    position: absolute;
-    border-style: none;
-    
+    border: none;
 }
 
-body{
-    vertical-align: baseline;
-    font-family: 'Open Sans', sans-serif;
-
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-
-}
-html{
-    display: block;
-    -webkit-text-size-adjust: 100px;
-
-}
+*{font-family: sans-serif;}
