@@ -6,9 +6,11 @@
     margin-inline: auto;
     width: 100%;
     max-width: 944px;
-    height: 524px;
+    height: 537px;
     overflow: auto;
     text-align: center;
+    opacity: 1;
+
 }
 
 .padre .texto1{font-size: 24px;}
